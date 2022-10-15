@@ -25,9 +25,6 @@
   "keywords": [
     "nestjs"
   ],
-  "publishConfig": {
-    "access": "restricted"
-  },
   "devDependencies": {
     "@nestjs/common": "^9.1.4",
     "@types/jest": "^29.1.2",
