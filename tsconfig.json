@@ -6,7 +6,7 @@
     "target": "es2020",
     "skipLibCheck": true,
     "emitDecoratorMetadata": true,
-    "module": "commonjs"
+    "module": "commonjs",
   },
   "include": ["src/**/*"]
 }
