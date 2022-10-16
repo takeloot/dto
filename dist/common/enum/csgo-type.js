@@ -1,0 +1,26 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ECsGoType = void 0;
+var ECsGoType;
+(function (ECsGoType) {
+    ECsGoType["PISTOL"] = "Pistol";
+    ECsGoType["SMG"] = "SMG";
+    ECsGoType["RIFLE"] = "Rifle";
+    ECsGoType["SNIPER_RIFLE"] = "Sniper Rifle";
+    ECsGoType["SHOTGUN"] = "Shotgun";
+    ECsGoType["MACHINEGUN"] = "Machinegun";
+    ECsGoType["AGENT"] = "Agent";
+    ECsGoType["KNIFE"] = "Knife";
+    ECsGoType["CONTAINER"] = "Container";
+    ECsGoType["STICKER"] = "Sticker";
+    ECsGoType["GRAFFITI"] = "Graffiti";
+    ECsGoType["GLOVES"] = "Gloves";
+    ECsGoType["MUSIC_KIT"] = "Music Kit";
+    ECsGoType["PATCH"] = "Patch";
+    ECsGoType["COLLECTIBLE"] = "Collectible";
+    ECsGoType["KEY"] = "Key";
+    ECsGoType["PASS"] = "Pass";
+    ECsGoType["GIFT"] = "Gift";
+    ECsGoType["TAG"] = "Tag";
+    ECsGoType["TOOL"] = "Tool";
+})(ECsGoType = exports.ECsGoType || (exports.ECsGoType = {}));
