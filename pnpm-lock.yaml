@@ -1,0 +1,57 @@
+lockfileVersion: 5.4
+
+specifiers:
+  class-transformer: ^0.3.1
+  class-validator: ^0.12.2
+  reflect-metadata: ^0.1.13
+  typescript: ^4.2.4
+
+dependencies:
+  class-transformer: 0.3.2
+  class-validator: 0.12.2
+  reflect-metadata: 0.1.13
+  typescript: 4.8.4
+
+packages:
+
+  /@types/validator/13.0.0:
+    resolution: {integrity: sha512-WAy5txG7aFX8Vw3sloEKp5p/t/Xt8jD3GRD9DacnFv6Vo8ubudAsRTXgxpQwU0mpzY/H8U4db3roDuCMjShBmw==}
+    dev: false
+
+  /class-transformer/0.3.2:
+    resolution: {integrity: sha512-9QY6QXBH/+Gt1C3HBmJCrgY6+EFpIa6aLjfDnlXFx0zQl/HjrCE7qoaI0srNrxpMIfsobCpgUdDG5JYtJOpVsw==}
+    deprecated: This release contains a breaking change from 0.3.1 but otherwise functions properly. Please read the changelog on Github to learn more.
+    dev: false
+
+  /class-validator/0.12.2:
+    resolution: {integrity: sha512-TDzPzp8BmpsbPhQpccB3jMUE/3pK0TyqamrK0kcx+ZeFytMA+O6q87JZZGObHHnoo9GM8vl/JppIyKWeEA/EVw==}
+    dependencies:
+      '@types/validator': 13.0.0
+      google-libphonenumber: 3.2.31
+      tslib: 2.4.0
+      validator: 13.0.0
+    dev: false
+
+  /google-libphonenumber/3.2.31:
+    resolution: {integrity: sha512-l3bzAkfN4ITICKvuqEiY7JN06RxDAviOoKMtD2KfGYjGK3btPO8Xav7k0fgmf1Ud/pEm523yBh1/s/xDtKEvnw==}
+    engines: {node: '>=0.10'}
+    dev: false
+
+  /reflect-metadata/0.1.13:
+    resolution: {integrity: sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==}
+    dev: false
+
+  /tslib/2.4.0:
+    resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
+    dev: false
+
+  /typescript/4.8.4:
+    resolution: {integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: false
+
+  /validator/13.0.0:
+    resolution: {integrity: sha512-anYx5fURbgF04lQV18nEQWZ/3wHGnxiKdG4aL8J+jEDsm98n/sU/bey+tYk6tnGJzm7ioh5FoqrAiQ6m03IgaA==}
+    engines: {node: '>= 0.10'}
+    dev: false
